@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', serif;
+}
+
+body{
+    background-color: #084C61;
+    width: 100%;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #084C61;
+    position: sticky;  
+    
+}
+
+.nav li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.nav li ul{
+    padding-left: 20px;
+    position: relative;
+    bottom: 12px;
+    left: 170px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #FFC857;
+    font-size: 1.4rem;
+    transition: all 0.2 ease-in;
+}
+
+.nav li a:hover{
+    color: #DB3A34;
+}
+.main a{
+    font-size: 2.2rem;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    text-decoration: none;
+    color: #FFC857;
+}
+
+.head {
+    position: relative;
+    top: 20%;
+
+}
+footer{
+    background-color: #323031;
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.icon{
+    display: flex;
+}
+
+.ig,.spoti,.face,.yt,.apple,.twi{
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.content{
+    color: #FFC857;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.heading{
+    padding-left: 20px;
+    color: #FFC857;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+hr{
+    height: 1px;
+    background-color: #DB3A34;
+    border: none;
+}
+
+.player-container {
+    margin-top: 80px;
+    margin-left: 600px;
+    background-color: #177E89;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in;
+}
+.player-container img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.player-container:hover{
+    transform: scale(1.1);
+}
+.album-cover {
+    width: 100%;
+    border-radius: 10px;
+}
+.song-title {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #FFC857;
+}
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.control-btn {
+    background-color: #DB3A34;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+.control-btn:hover {
+    background-color: #FFC857;
+    color: #323031;
+}

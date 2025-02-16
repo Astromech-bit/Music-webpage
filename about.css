@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', serif;
+}
+
+body{
+    background-color: #084C61;
+    width: 100%;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #084C61;
+    position: sticky;  
+    
+}
+
+.nav li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.nav li ul{
+    padding-left: 20px;
+    position: relative;
+    bottom: 12px;
+    left: 170px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #FFC857;
+    font-size: 1.4rem;
+    transition: all 0.2 ease-in;
+}
+
+.nav li a:hover{
+    color: #DB3A34;
+}
+.main a{
+    font-size: 2.2rem;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    text-decoration: none;
+    color: #FFC857;
+}
+
+.head {
+    position: relative;
+    top: 20%;
+
+}
+footer{
+    background-color: #323031;
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.icon{
+    display: flex;
+}
+
+.ig,.spoti,.face,.yt,.apple,.twi{
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.content{
+    color: #FFC857;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.about{
+    height: 400px;
+    position: relative;
+    top: 60px;
+    background-color: #177E89;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #FFC857;
+    padding-top: 20px;
+}
+
+.para{
+    padding-top: 50px;
+    color: #323031;
+    font-size: 1.2rem;
+    text-align: center;
+    word-spacing: 3px;
+}

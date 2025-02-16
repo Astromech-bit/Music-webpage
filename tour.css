@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', serif;
+}
+
+body{
+    background-color: #084C61;
+    width: 100%;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: #084C61;
+    position: sticky;  
+    
+}
+
+.nav li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.nav li ul{
+    padding-left: 20px;
+    position: relative;
+    bottom: 12px;
+    left: 170px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #FFC857;
+    font-size: 1.4rem;
+    transition: all 0.2 ease-in;
+}
+
+.nav li a:hover{
+    color: #DB3A34;
+}
+.main a{
+    font-size: 2.2rem;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    text-decoration: none;
+    color: #FFC857;
+}
+
+.head {
+    position: relative;
+    top: 20%;
+
+}
+footer{
+    background-color: #323031;
+    height: 200px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.icon{
+    display: flex;
+}
+
+.ig,.spoti,.face,.yt,.apple,.twi{
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.content{
+    color: #FFC857;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.heading{
+    padding-left: 20px;
+    color: #FFC857;
+    font-size: 2rem;
+    padding-top: 30px;
+}
+hr{
+    height: 1px;
+    background-color: #DB3A34;
+    border: none;
+}
+.event{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.event-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    background: #177E89;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.event-container:hover{
+    width: 98%;
+}
+.event-date {
+    color: #323031;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-date .day {
+    color: #FFC857;
+}
+
+.event-location {
+    color: #FFC857;
+    text-align: left;
+    font-size: 18px;
+}
+
+.event-location .city {
+    display: block;
+    color: #323031;
+    font-size: 16px;
+}
+
+.event-info .more-info {
+    color: #323031;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.event-status {
+    background: #0a647f;
+    padding: 8px 15px;
+    color: #778899;
+    font-weight: bold;
+    border-radius: 5px;
+}

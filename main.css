@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', serif;
+}
+
+body{
+    background-color: #084C61;
+    width: 100%;
+    overflow-x: hidden;
+}
+.nav{
+    height: 500px;
+    width: 100%;
+    background-color: #084C61;
+    
+}
+
+.nav li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 30px;
+}
+
+.nav li ul{
+    padding-left: 20px;
+    position: relative;
+    bottom: 12px;
+    left: 170px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #FFC857;
+    font-size: 1.4rem;
+    transition: all 0.2 ease-in;
+}
+
+.nav li a:hover{
+    color: #DB3A34;
+}
+
+.main a{
+    font-size: 2.2rem;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    text-decoration: none;
+    color: #FFC857;
+}
+
+.head {
+    position: relative;
+    top: 20%;
+
+}
+
+.top-head{
+    margin-left: 28%;
+    font-size: 4rem;
+    color: #FFC857;
+    text-shadow: 1px 1px 2px grey;
+    transition: all 1s ease-in-out;
+}
+
+.top-head:hover{
+    text-shadow: 2px 2px 10px #FFC857;
+}
+
+.sub-head{
+    margin-left: 36%;
+    font-size: 2rem;
+    color: #177E89;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.box1{
+    height: 400px;
+    width: 300px;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+
+.box4{
+    height: 400px;
+    width: 300px;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+.box5{
+    height: 400px;
+    width: 300px;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+
+
+.box1:hover{
+    height: 415px; 
+    transform: translateY(-15px);
+    background-color:#167580;
+    
+}
+.box2:hover{
+    height: 415px; 
+    transform: translateY(-15px);
+    background-color:#167580;
+}
+.box3:hover{
+    height: 415px; 
+    transform: translateY(-15px);
+    background-color:#167580;
+}
+.box4:hover{
+    height: 415px; 
+    transform: translateY(-15px);
+    background-color:#167580;
+}
+.box5:hover{
+    height: 415px; 
+    transform: translateY(-15px);
+    background-color:#167580;
+}
+.img img{
+    height: 200px;
+    width: 200px;
+    /* background-color: white; */
+    position: relative;
+    left: 16%;
+    top: 50px;
+    box-shadow: 1px 1px 5px rgb(48, 48, 48);
+}
+
+.body p{
+    color: #FFC857;
+    position: relative;
+    top: 90px;
+    left: 80px;
+    font-size: 1.2rem;
+}
+
+.body button{
+    position: relative;
+    top: 30%;
+    left: 31%;
+    padding: 5px 35px 5px 35px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #FFC857;
+    border-width: 1px;
+    color: #FFC857;
+    outline: none;
+    background-color: #177E89;
+    transition: all 0.2s ease-in;
+}
+
+.body button:hover{
+    transform : scale(1.2);
+    background-color: #FFC857;
+    color: #323031;
+}
+
+footer{
+    background-color: #323031;
+    height: 200px;
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+}
+
+.ig,.spoti,.face,.yt,.apple,.twi{
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.content{
+    color: #FFC857;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
